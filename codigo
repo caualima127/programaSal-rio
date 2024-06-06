@@ -24,7 +24,7 @@ public class ReajusteSalario {
 
         aumento = salarioAtual * (percentualAumento / 100);
         novoSalario = salarioAtual + aumento;
-        aumentoReal = aumento - (aumento * 0.038); // Descontando a inflação de 3.8%
+        aumentoReal = aumento - (aumento * 0.038); 
 
         System.out.println("\nSalário antes do reajuste: R$ " + salarioAtual);
         System.out.println("Percentual de aumento aplicado: " + percentualAumento + "%");
